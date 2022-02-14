@@ -37,3 +37,15 @@ Yukarıdaki dizinin Insertion Sort'a göre ilk 4 adımını yazınız.
 >[2, 3, 4, 5, 7, 8, 9], 15, 6<br>
 >[2, 3, 4, 5, 7, 8, 9, 15], 6<br>
 >[2, 3, 4, 5, 6, 7, 8, 9, 15]<br>
+# Merge Sort
+<h3>[16,21,11,8,12,22]</h3>
+1) Yukarıdaki dizinin Merge Sort'a göre aşamalarını yazınız.
+
+>{16, 21, 11, 8, 12, 22}<br>
+>{16, 21, 11}------------{8, 12, 22}<br>
+>{16,21}, {11}--------{8}, {12, 22}<br>
+>{11, 16, 21}------{8, 12, 22}<br>
+>{8, 11, 12, 16, 21, 22}
+
+2) Big-O gösterimini yazınız.
+>O(nlogn)
